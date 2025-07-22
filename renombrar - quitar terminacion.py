@@ -1,7 +1,7 @@
 import os
  # Se eliminara todo lo el nombre desde el primero "_" que tenga el nombre
 # Ruta donde están los archivos
-carpeta = "C:/Users/Cristian/OneDrive - Universidad Católica de Chile/Escritorio/Nueva carpeta"
+carpeta = "ruta"
 
 for nombre_archivo in os.listdir(carpeta):
     ruta_completa = os.path.join(carpeta, nombre_archivo)
@@ -43,7 +43,7 @@ for nombre_archivo in os.listdir(carpeta):
 for nombre_archivo in os.listdir(carpeta):
     ruta_completa = os.path.join(carpeta, nombre_archivo)  
     nombre, extension = os.path.splitext(nombre_archivo)  
-    extension_proyecto= "_CI-MAUCO+"    # extension que debe cambiarse para cada tipo de documento y proyecto
+    extension_proyecto= "_extencion-proyecto"    # extension que debe cambiarse para cada tipo de documento y proyecto
     nuevo_nombre = nombre + extension_proyecto + extension
     nueva_ruta = os.path.join(carpeta, nuevo_nombre)
 
