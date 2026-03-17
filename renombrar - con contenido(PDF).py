@@ -3,7 +3,7 @@ import os
 import fitz  # PyMuPDF. Instálalo con: pip install PyMuPDF
 
 # Carpeta donde están los archivos PDF
-carpeta = "C:/Users/Cristian/OneDrive - Universidad Católica de Chile/Escritorio/Nueva carpeta"  # Cambia esto por la ruta real
+carpeta = "C:/ruta/"  # Cambia esto por la ruta de la carpeta
 
 # Expresión regular para extraer el nombre
 patron_nombre = re.compile(r"NOMBRE LEGAL:\s*(.+)")

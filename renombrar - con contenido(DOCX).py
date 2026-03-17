@@ -3,7 +3,7 @@ import os
 from docx import Document # instalar docx -  pip install docx
 
 # Carpeta donde están los archivos de Word
-carpeta = "C:/ruta/ruta/"  # Cambia esto por la ruta de la carpeta
+carpeta = "C:/ruta/"  # Cambia esto por la ruta de la carpeta
 
 
 

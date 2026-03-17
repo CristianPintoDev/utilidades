@@ -1,7 +1,7 @@
 import os
 
 # Carpeta con los archivos
-carpeta = "C:/Users/Cristian/OneDrive - Universidad Católica de Chile/Escritorio/Nueva carpeta"
+carpeta = "C:/ruta/"  # Cambia esto por la ruta de la carpeta
 
 # Recorrer todos los archivos en la carpeta
 for nombre_archivo in os.listdir(carpeta):

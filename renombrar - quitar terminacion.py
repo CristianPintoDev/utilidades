@@ -1,7 +1,7 @@
 import os
  # Se eliminara todo lo el nombre desde el primero "_" que tenga el nombre
 # Ruta donde están los archivos
-carpeta = "ruta"
+carpeta = "C:/ruta/"  # Cambia esto por la ruta de la carpeta
 
 for nombre_archivo in os.listdir(carpeta):
     ruta_completa = os.path.join(carpeta, nombre_archivo)

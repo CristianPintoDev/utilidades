@@ -3,7 +3,7 @@ import os
 import fitz  # PyMuPDF
 
 # Carpeta donde están los archivos PDF
-carpeta = "C:/Users/Cristian/OneDrive - Universidad Católica de Chile/Escritorio/Nueva carpeta"
+carpeta = "C:/ruta/"  # Cambia esto por la ruta de la carpeta
 
 # Expresión regular para detectar nombre y dos apellidos
 patron_nombre = re.compile(r"\b([A-ZÁÉÍÓÚÑ]{2,})\s*\n\s*([A-ZÁÉÍÓÚÑ]{2,})\s+([A-ZÁÉÍÓÚÑ]{2,})")
